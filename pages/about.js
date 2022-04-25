@@ -18,12 +18,11 @@ export default function Home() {
         <h1>About Page</h1>
 
         <h1 className={styles.title}>
-          {/*Go to <a href='/'>Home</a>*/}
           Go to <Link href='/'>Home</Link>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code className={styles.code}>pages/index.js</code>
+          Get started by editing <code className={styles.code}>pages/about.js</code>
         </p>
       </main>
     </div>
