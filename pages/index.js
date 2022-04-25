@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 
 
@@ -15,7 +16,10 @@ export default function Home() {
         <meta name='keywords' content='nextjs react node' />
       </Head>
 
+      <Navbar/>
+
       <main className={styles.main}>
+        <h1>Home Page</h1>
         <h1 className={styles.title}>
           go to <Link href='/about'>About</Link>
         </h1>
