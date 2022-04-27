@@ -19,7 +19,7 @@ export default function AboutPage() {
 }
 
 //Function to insert layout in the page
-AboutPage.getLayout = function getLayout(page) {
+AboutPage.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       <DarkLayout>{page}</DarkLayout>
